@@ -1,0 +1,39 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "88dbfe7f-70a5-4f73-a79d-b37818d13476"
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "linter"
+      "tree-view"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-light-ui"
+      "one-light-syntax"
+    ]
+  editor:
+    fontSize: 17
+  "exception-reporting":
+    userId: "f813fc55-8b29-4b58-b288-dfd0adc0975f"
+  "linter-eslint":
+    useGlobalEslint: true
+  "linter-ui-default":
+    panelHeight: 221
+  nuclide:
+    "nuclide-home":
+      showHome: false
+  welcome:
+    showOnStartup: false

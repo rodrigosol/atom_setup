@@ -1,0 +1,2 @@
+class LittleUser < User
+end

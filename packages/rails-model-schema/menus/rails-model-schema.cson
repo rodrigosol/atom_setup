@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle Rails Model Schema'
+      'command': 'rails-model-schema:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Rails Model Schema'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'rails-model-schema:toggle'
+        }
+      ]
+    ]
+  }
+]

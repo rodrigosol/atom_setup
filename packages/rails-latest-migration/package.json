@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/m_/g0ypq8jj6yq131m458tnsk4w0000gn/T/d-11822-24456-jtf9r2.5ex2inewmi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/m_/g0ypq8jj6yq131m458tnsk4w0000gn/T/d-11822-24456-jtf9r2.5ex2inewmi/package.tgz",
+        "spec": "/private/var/folders/m_/g0ypq8jj6yq131m458tnsk4w0000gn/T/d-11822-24456-jtf9r2.5ex2inewmi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/m_/g0ypq8jj6yq131m458tnsk4w0000gn/T/apm-install-dir-11822-24456-18t4n7v.vhen4s4i"
+    ]
+  ],
+  "_from": "../d-11822-24456-jtf9r2.5ex2inewmi/package.tgz",
+  "_id": "rails-latest-migration@1.1.6",
+  "_inCache": true,
+  "_location": "/rails-latest-migration",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/m_/g0ypq8jj6yq131m458tnsk4w0000gn/T/d-11822-24456-jtf9r2.5ex2inewmi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/m_/g0ypq8jj6yq131m458tnsk4w0000gn/T/d-11822-24456-jtf9r2.5ex2inewmi/package.tgz",
+    "spec": "/private/var/folders/m_/g0ypq8jj6yq131m458tnsk4w0000gn/T/d-11822-24456-jtf9r2.5ex2inewmi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11822-24456-jtf9r2.5ex2inewmi/package.tgz",
+  "_shasum": "6438211f056b0e6449a2cdcdae4e396ea027394c",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/m_/g0ypq8jj6yq131m458tnsk4w0000gn/T/d-11822-24456-jtf9r2.5ex2inewmi/package.tgz",
+  "_where": "/private/var/folders/m_/g0ypq8jj6yq131m458tnsk4w0000gn/T/apm-install-dir-11822-24456-18t4n7v.vhen4s4i",
+  "activationCommands": {
+    "atom-workspace": [
+      "rails-latest-migration:find",
+      "rails-latest-migration:list"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/alexpls/rails-latest-migration-atom/issues"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.1.0",
+    "underscore-plus": "1.x"
+  },
+  "description": "Opens the latest migration in a Rails app",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/alexpls/rails-latest-migration-atom#readme",
+  "license": "MIT",
+  "main": "./lib/rails-latest-migration",
+  "name": "rails-latest-migration",
+  "optionalDependencies": {},
+  "readme": "# Rails Latest Migration\n\nAdds a shortcut for quickly opening up the latest migration in your Rails app.\n\nPorted over from my Sublime Text plugin by the same name: [Rails Latest Migration - Sublime](https://github.com/alexpls/Rails-Latest-Migration).\n\n[Find Rails Latest Migration on the atom.io package manager here.](https://atom.io/packages/rails-latest-migration)\n\nUsage\n--\n### Via Command Pallette\n1. Open up your Rails project *(note: for the plugin to work the project must have been opened in Atom at its root)*.\n2. Bring up the command pallette (CMD+SHIFT+P on Mac, CTRL+SHIFT+P on Windows).\n3. Type in \"latest\", and select \"Rails Latest Migration: Find\" from the list.\n4. And there it is, your latest migration!\n5. You can select \"Rails Latest Migration: List\" to open the list of all migrations.\n\n### Via keymap\n1. Open up your Rails project *(note: for the plugin to work the project must have been opened in Atom at its root)*.\n2. Type \"CTRL-CMD-L\", and there it is, your latest migration!\n3. Type \"SHIFT-CMD-M\" to see the list of all migrations.\n\nThanks\n--\n- Thanks to @jonathansimmons for suggesting this plugin, and providing me with the Atom beta invite that allowed me to build it!\n- Thanks to @jastkand for contributing the list of all migrations!\n\nLicense\n--\nThe MIT License (MIT) - for more info see [LICENSE.md](https://github.com/alexpls/rails-latest-migration-atom/blob/master/LICENSE.md)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexpls/rails-latest-migration-atom.git"
+  },
+  "version": "1.1.6"
+}
